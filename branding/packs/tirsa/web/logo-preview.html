@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tirsa Logo Preview</title>
+    <link rel="stylesheet" href="../colors/tokens.css" />
+    <link rel="stylesheet" href="../typography/typography.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 32px;
+        background: var(--tirsa-color-bg);
+        color: var(--tirsa-color-text);
+        font-family: var(--tirsa-font-body);
+      }
+      h1 { font-family: var(--tirsa-font-heading); margin: 0 0 24px; }
+      .grid { display: grid; gap: 24px; }
+      .card {
+        border: 1px solid var(--tirsa-color-border);
+        border-radius: 16px;
+        padding: 20px;
+        background: var(--tirsa-color-surface);
+      }
+      .card.dark {
+        background: #0b0f1a;
+        color: #f5f7fb;
+      }
+      .label {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--tirsa-color-text-muted);
+        margin-bottom: 12px;
+      }
+      .dark .label { color: #aeb8d4; }
+      img { display: block; max-width: 100%; height: auto; }
+    </style>
+  </head>
+  <body>
+    <h1>Tirsa Logo Preview</h1>
+    <div class="grid">
+      <div class="card">
+        <div class="label">Tirsa</div>
+        <img src="../logos/tirsa-logo-tirsa.svg" alt="Tirsa logo" />
+      </div>
+      <div class="card">
+        <div class="label">Tirsa Software</div>
+        <img src="../logos/tirsa-logo-tirsa-software.svg" alt="Tirsa Software logo" />
+      </div>
+      <div class="card dark">
+        <div class="label">Tirsa Software on dark</div>
+        <img src="../logos/tirsa-logo-on-dark.svg" alt="Tirsa Software logo dark" />
+      </div>
+      <div class="card">
+        <div class="label">Mark only</div>
+        <img src="../logos/tirsa-logo-mark.svg" alt="Tirsa mark" style="width: 140px;" />
+      </div>
+    </div>
+  </body>
+</html>

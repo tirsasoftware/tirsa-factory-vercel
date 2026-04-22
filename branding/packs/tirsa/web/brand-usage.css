@@ -1,0 +1,30 @@
+/* Reference usage for website */
+body {
+  background: var(--tirsa-color-bg);
+  color: var(--tirsa-color-text);
+  font-family: var(--tirsa-font-body);
+}
+
+.tirsa-hero-title {
+  font-family: var(--tirsa-font-heading);
+  font-size: clamp(36px, 6vw, var(--tirsa-type-h1));
+  line-height: var(--tirsa-leading-tight);
+  letter-spacing: -0.02em;
+}
+
+.tirsa-cta {
+  background: var(--tirsa-gradient-brand);
+  color: #ffffff;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-family: var(--tirsa-font-heading);
+  font-weight: 600;
+}
+
+.tirsa-card {
+  background: var(--tirsa-color-surface);
+  border: 1px solid var(--tirsa-color-border);
+  border-radius: 14px;
+  color: var(--tirsa-color-text);
+}

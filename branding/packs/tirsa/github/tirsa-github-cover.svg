@@ -1,0 +1,33 @@
+<svg width="1280" height="560" viewBox="0 0 1280 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="24" x2="1160" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070D1E"/>
+      <stop offset="1" stop-color="#030814"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 96) rotate(127.8) scale(420 520)">
+      <stop stop-color="#1463FF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#1463FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 472) rotate(127.8) scale(360 460)">
+      <stop stop-color="#00C2A8" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#00C2A8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="0" y="0" width="1280" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="48"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="560" rx="28" fill="url(#bg)"/>
+
+  <g filter="url(#soft)">
+    <ellipse cx="1030" cy="120" rx="260" ry="210" fill="url(#glowA)"/>
+    <ellipse cx="300" cy="472" rx="220" ry="160" fill="url(#glowB)"/>
+  </g>
+
+  <rect x="104" y="182" width="198" height="198" rx="46" fill="#0F1833"/>
+  <path d="M126 218H280V242H210V340H196V242H126V218Z" fill="#1463FF"/>
+  <path d="M210 218H280V242H236V340H210V218Z" fill="#00C2A8"/>
+
+  <text x="356" y="294" fill="#F3F7FF" font-family="Sora, Segoe UI, sans-serif" font-size="92" font-weight="700" letter-spacing="-0.03em">Tirsa Software</text>
+  <text x="360" y="352" fill="#AFC0E6" font-family="Manrope, Segoe UI, sans-serif" font-size="32" font-weight="500" letter-spacing="0.01em">AI-native software house</text>
+</svg>
